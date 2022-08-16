@@ -39,7 +39,7 @@ app.get("/api/lienquan", (req, resp) => {
         thumnails.push({
           name: name,
           url:
-            "http://localhost:8000/api/lienquan" +
+            "https://lien-quan-api-d99t.onrender.com/api/lienquan" +
             url.split("/tuong-chi-tiet")[1],
           image: "https://lienquan.garena.vn" + image,
         });
